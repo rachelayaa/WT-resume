@@ -1,0 +1,205 @@
+
+.acad{
+      padding-left:35%;
+  }
+
+  .skill{
+    text-align: center;
+}
+.heading{
+  text-align: center;
+}
+.image{
+  height:  20vw;
+  width: 20vw;
+  object-fit: cover;
+  object-position: 0 .01vw;
+  padding: 2vw;
+}
+
+  body{
+      height: 950px;
+      background-color: #C5C5C5;
+      border: 0px solid black;
+      color: black;
+      font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+  table{
+    color: #2E2929;
+    font-family: 'Andale Mono', monospace;
+  }
+  h1 {
+      color: 	#000000; 
+      font-family: 'Andale Mono', monospace; 
+      font-size: 65px; 
+      font-weight: normal; 
+      line-height: 60px; 
+      margin: 10px 0 20px; 
+      text-transform: uppercase; 
+      text-shadow: 2px 2px 0 #000, margin: 10px 0 24px; 
+      text-align: center;
+   }
+  
+  h2 {
+      color: 	#000000; 
+      font-family: 'Lucidatypewriter', monospace;
+      font-size: 40px; 
+      letter-spacing: -1px; 
+      text-transform: uppercase;   
+      line-height: 50px;
+   }
+   h3 {
+    color: 	#000000; 
+    font-family: 'ui-monospace';
+    font-size: 30px; 
+    letter-spacing: -1px;   
+    line-height: 50px;
+ }
+   h4 {
+       color:#3B3B3B;
+       font-size: 25px;
+   }
+
+   .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .container {
+    height: 200px;
+    position: relative;
+  }
+  
+  .button {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 4px;
+    background-color: #696969;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .hori {
+    margin: 10;
+    width: 75%;
+    padding-left: 15%;
+    left: 45%;
+  }
+  
+  ul {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #525252;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  p { color: #3B3B3B;
+      font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+     width: 800px;
+    font-weight: normal;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+       width: 800px;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 120px;
+    width: 800px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: 	#000000;
+    cursor: pointer;
+    background: #AEAEAE;
+    border: 0 none;
+  }
+  
+  #submit-button {
+    background-color: #525252;
+    font-size: 16px;
+    color: 	#000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 0px;
+  }
+  
+  .acad_sub{
+    padding-left:0%;
+}
+
+.header {
+  align-content: center;
+}
