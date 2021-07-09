@@ -1,6 +1,6 @@
 
 .acad{
-      padding-left:35%;
+      text-align:center;
   }
 
   .skill{
@@ -16,7 +16,14 @@
   object-position: 0 .01vw;
   padding: 2vw;
 }
-
+.pro_image{
+  height:  20vw;
+  width: 20vw;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 .01vw;
+  padding: 2vw;
+}
   body{
       height: 950px;
       background-color: #C5C5C5;
